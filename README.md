@@ -1,13 +1,16 @@
-#Proyecto calculadora#
+#Proyecto calculadora 2#
 Para la realización del proyecto se han seguido los siguientes pasos:
 
-En primer lugar, se creó un repositorio público en github nombrado *my_calculator*.
+En primer lugar, se creó un repositorio público en github nombrado *my_calculator_2*, donde se añadió el clon del repositorio my_calculator 
+y se realizaron una serie de cambios.
 
 A continuación, se introdujeron en git bash los comandos pertinentes:
  
-Comenzando por **git init "my_calculator"**, a partir de él iniciamos el repsitorio en nuestra consola para poder comenzar a trabajar en el repositorio creado.
+Comenzando por **git git clone https://github.com/my_calculator   my_calculator_2**, a partir de él clonamos en "my_calculator_2", el repositorio my_calculator.
+A continuación, se creó una rama que partiera del primer commit nombrado como <x^3 button>, con los commits **git log --oneline**, por el cual copiamos el id del 
+commit de interés y lo reservamos para introducirlo en el siguiente comando que fue el encargado de crear nuestra nueva rama  **git checkout -b ops <id_de_commit>** 
 
-Posteriormente se entró en el directorio "my calculator" con el comando **cd "my_calculator"**,
+Posteriormente, la nueva rama que se creó nombrada como "ops", 
 tras este paso, se asignó el repositorio remoto que habíamos creado en Git hub con ** git remote add origin https://github.com/<mi usuario de github>/my_calculator.git**
 
 Después, se creó un archivo html al que hemos nombrado como index.html **nano index.html**, este fichero contiene una calculadora web con un botón para hayar el cubo del número introducido 
